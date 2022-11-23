@@ -16,10 +16,13 @@ export default function Home() {
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo, cum aperiam mollitia adipisci voluptas sunt nam repudiandae itaque ratione consequuntur temporibus nostrum consequatur, vel ipsam sit repellendus velit! Ipsa?</p>
                         <div id="redes">
-                            <a href="https://www.linkedin.com/in/jhonatasols/"><BsLinkedin/></a>
-                            <a href="https://github.com/JhonnyO3"><BsGithub/></a>
-                            <a href="https://www.instagram.com/"><BsInstagram/></a>
-                            <a href="https://www.facebook.com/jhonatas.oliveira.58152/"><BsFacebook/></a>
+                            <ul>
+                                <a href="https://www.linkedin.com/in/jhonatasols/"><BsLinkedin /></a>
+                                <a href="https://github.com/JhonnyO3"><BsGithub /></a>
+                                <a href="https://www.instagram.com/"><BsInstagram /></a>
+                                <a href="https://www.facebook.com/jhonatas.oliveira.58152/"><BsFacebook /></a>
+                            </ul>
+
                         </div>
                         <h1 id="arrow-down"><IoIosArrowDropdownCircle id="icon" /></h1>
                     </div>
