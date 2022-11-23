@@ -25,9 +25,6 @@ font-family: 'Roboto Mono', monospace;
     max-width: 20rem;
   }
 
-
-  
-
   #main {
     position: relative;
   }
@@ -44,14 +41,46 @@ font-family: 'Roboto Mono', monospace;
       font-size: 1.5rem;
       width: 100%;
     }
+    #redes{
+      a{
+        color: white;
+      }
+      
+    }
+    #arrow-down{
+      display: none;
+    }
 
-  }
-  #introducao #arrow-down{
-    display: none;
-  }
+
+}
 
 }
 }
+#main #about-work {
+  @media (max-width: 600px) {
+    margin: auto;
+    max-width: 600px;
+    top: 10rem;
+    h3{
+      width: 90%;
+      font-size:2.5rem;
+    }
+  }
+  p{
+    word-break: break-all;
+        font-size: 1.3rem;
+        text-align: justify;
+      }
+    a{
+        text-align: center;
+        font-size: 1.3rem;
+        
+
+    }
+    
+
+  }
+
 
 
 
@@ -119,6 +148,21 @@ font-family: 'Roboto Mono', monospace;
     width: 85%;
     text-align: justify;
   }
+}
+#redes{
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  a{
+    color: #000000;
+
+    font-size: 4rem;
+  }
+  a:hover{
+    transition: 2s;
+    color: #9e9e9e;
+  }
+
 }
 #image{
  img{

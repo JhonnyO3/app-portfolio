@@ -1,6 +1,8 @@
 import React from "react";
 import { DivHome } from "../style/styled";
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
+import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
+
 import desktop from "../img/desktop.png"
 
 export default function Home() {
@@ -13,6 +15,12 @@ export default function Home() {
                         <h1>Sou o Jhonatas,<br /> desenvolvedor Full-Stack</h1>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo, cum aperiam mollitia adipisci voluptas sunt nam repudiandae itaque ratione consequuntur temporibus nostrum consequatur, vel ipsam sit repellendus velit! Ipsa?</p>
+                        <div id="redes">
+                            <a href=""><BsLinkedin/></a>
+                            <a href=""><BsGithub/></a>
+                            <a href=""><BsInstagram/></a>
+                            <a href=""><BsFacebook/></a>
+                        </div>
                         <h1 id="arrow-down"><IoIosArrowDropdownCircle id="icon" /></h1>
                     </div>
                     <div id="image">
