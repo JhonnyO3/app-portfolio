@@ -2,6 +2,7 @@ import React from "react";
 import { DivHome } from "../style/styled";
 import { IoIosArrowDropdownCircle } from 'react-icons/io';
 import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
+import ti from "../img/ti.png"
 
 import desktop from "../img/desktop.png"
 
@@ -39,7 +40,28 @@ export default function Home() {
                     <div id="work">
                         <h3>Meu trabalho</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, est nam praesentium distinctio itaque inventore ratione veniam quos aliquid quidem reprehenderit dignissimos, possimus ipsum? Officia tenetur dicta culpa nam et.</p>
-                        <a href="">Venha conferir meu trabalho  </a>
+                        <div id="cards">
+                            <div id="works">
+                                <img src={ti} alt="" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
+                                <a href="">Link</a>
+                            </div>
+                            <div id="works">
+                                <img src={ti} alt="" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
+                                <a href="">Link</a>
+
+                            </div>
+                            <div id="works">
+                                <img src={ti} alt="" />
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
+                                <a href="">Link</a>
+
+                            </div>
+
+
+                        </div>
+                        <a href="">Ver mais projetos</a>
                     </div>
 
 

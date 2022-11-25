@@ -7,6 +7,14 @@ margin: 0;
 padding: 0;
 font-family: 'Roboto Mono', monospace;
 
+#cards {
+  @media (max-width: 600px) {
+    max-width: 600px;
+    flex-wrap: wrap;
+   
+  }
+}
+
 
 #container{
   @media (max-width: 1920px) {
@@ -54,6 +62,21 @@ font-family: 'Roboto Mono', monospace;
 }
 
 }
+}
+#cards {
+  margin-top: 4rem;
+  display: flex;
+  gap: 10px;
+
+  #works{
+    max-width: 35rem;
+    padding: 20px;
+    img{
+      width: 100%;
+    }
+
+
+  }
 }
 #main #about-work {
   @media (max-width: 600px) {
