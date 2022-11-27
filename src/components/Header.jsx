@@ -14,7 +14,7 @@ export default function Header() {
     return (
         <DivHeader>
             <header id="header">
-                <a id="logo"><span>{BsCodeSlash}</span>Jhonatas Oliveira </a>
+                <a id="logo">PORTFOLIO</a>
                 <nav id="nav">
                     <button id="btn-mobile" onClick={toggleMenu}>
                         <span id="hamburguer"></span>

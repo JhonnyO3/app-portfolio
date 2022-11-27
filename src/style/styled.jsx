@@ -1,228 +1,70 @@
 import styled from "styled-components";
 
 
-/*HOME-------------------------------------- */
+
+/*HOME --------------------------------------*/
 export const DivHome = styled.div`
-margin: 0;
-padding: 0;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+color: #fff;
 
-#cards {
-  @media (max-width: 600px) {
-    max-width: 600px;
-    flex-wrap: wrap;
-   
-  }
-}
-
-
-#container{
-  @media (max-width: 1920px) {
-    #main{
-      position: relative;
-      top: 10rem;
-    }
-  }
-  @media (max-width: 600px) {
-  flex-wrap: wrap;
-
-  img{
-    position: relative;
-    top: 3rem;
-    max-width: 20rem;
-  }
-
-  #main {
-    position: relative;
-  }
-  #introducao {
-    max-width: 600px;
-
-
-    h1{
-      width: 100%;
-      
-      font-size: 2rem;
-    }
-    p{
-      font-size: 1.5rem;
-      width: 100%;
-    }
-    #redes{
-      a{
-        color: white;
-      }
-      
-    }
-    #arrow-down{
-      display: none;
-    }
-
-
-}
-
-}
-}
-#cards {
-  margin-top: 4rem;
-  display: flex;
-  gap: 10px;
-
-  #works{
-    max-width: 35rem;
-    padding: 20px;
-    img{
-      width: 100%;
-    }
-
-
-  }
-}
-#main #about-work {
-  @media (max-width: 600px) {
-    margin: auto;
-    max-width: 600px;
-    top: 10rem;
-    h3{
-      width: 90%;
-      font-size:2.5rem;
-    }
-  }
-  p{
-    word-break: break-all;
-        font-size: 1.3rem;
-        text-align: justify;
-      }
-    a{
-        text-align: center;
-        font-size: 1.3rem;
-        
-
-    }
-    
-
-  }
-
-
-
-
-#arrow-down{
-  position: relative;
-  top: 2rem;
-  color: blue;
-
-  #icon {
-    font-size:12rem;
-    color: #7281F2;
-  }
-  #icon:hover{
-    transition: 2s;
-    color: #354ae9;
-    font-size: 13rem;
-  }
- 
-
-  
-}
-
-#linha {
-  font-size: 5px;
-
-  padding-right:30%;
-  width: 100%;
-  position: relative;
-  bottom: 1rem;
-  background-color: white;
-}
-
-
-#main {
-  margin: auto;
-  width: 90%;
-  top: 10rem;
-  position: relative;
-
-
-  
+#img-principal img{
+  max-width: 856px;
+  max-height: 853px;
 }
 
 #container {
-  background: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-
 }
-#introducao {
-  position: relative;
-  color: white;
-  max-width: 90%;
-  h1 {
+#principal{
+  padding: 5rem;
+
+  span{
+    background: -moz-linear-gradient(to right,#4DA5FF, #7C8EFC, #9F7EFA  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #sub-titulo p{
+    max-width: 81%;
+
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #9BABB4;
+  }
+
+   h1{
     font-weight: 900;
-    width: 100%;
-    font-size:4.8rem;
-  }
-  p{
-    word-break: break-all;
-    font-size: 2rem;
-    margin-top:2rem;
-    width: 85%;
-    text-align: justify;
-  }
-}
-#redes{
-  margin-top: 2rem;
-  display: flex;
-  gap: 2rem;
-  a{
-    color: #000000;
-
+    max-width: 79%;
     font-size: 4rem;
   }
-  a:hover{
-    transition: 2s;
-    color: #9e9e9e;
+  #botao-cv{
+    button{
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      border: none;
+      font-size: 1.25rem;
+      padding: .5rem 3rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      border-radius: 3rem;
+      background-color: #2190FF;
+    }
+
+  }
+  #redes{
+    display: flex;
+    
+    a{
+      color: white;
+      margin: 3rem .5rem;
+      font-size: 2.9rem;
+ 
+    }
   }
 
-}
-#image{
- img{
-  width: 30rem;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #1a1a1a;
- }
 
-}
-#about-work{
-  position: relative;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  top: 3rem;
-  padding-bottom: 10rem;
 
-  h3 {
-    font-size: 3.7rem;
-    font-weight: bold;
-  }
-  p{
-    font-size: 2rem;
-    margin-top: .5rem;
-    margin-bottom: 1rem;
-  }
-  a{
-    color: #7281F2;
-    margin-top: 5px;
-    font-size: 2rem;
-  }
-  a:hover {
-    transition: 2s;
-    color: #354ae9;
-    font-size: 3rem;
-  }
+
 }
 
 `
@@ -239,23 +81,21 @@ a{
     color: #fff;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 1.8rem;
 }
 a:hover {
     color: #7281f2;
     display: block;
 }
 #logo {
-    padding: 30px;
     font-size: 2rem;
     font-weight: bold;
     margin-left: 1rem;
 }
 #header {
+  padding: 5rem;
     box-sizing: border-box;
     height: 70px;
-    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

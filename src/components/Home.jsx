@@ -1,74 +1,32 @@
 import React from "react";
+import {  BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
+import ilustracao from "../img/ilustracao.png"
 import { DivHome } from "../style/styled";
-import { IoIosArrowDropdownCircle } from 'react-icons/io';
-import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from 'react-icons/bs';
-import ti from "../img/ti.png"
-
-import desktop from "../img/desktop.png"
 
 export default function Home() {
     return (
         <DivHome>
-            <main id="main">
-                <div id="container">
-                    <div id="introducao">
-                        <span id="linha"></span>
-                        <h1>Sou o Jhonatas,<br /> desenvolvedor Full-Stack</h1>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo, cum aperiam mollitia adipisci voluptas sunt nam repudiandae itaque ratione consequuntur temporibus nostrum consequatur, vel ipsam sit repellendus velit! Ipsa?</p>
-                        <div id="redes">
-                            <ul>
-                                <a href="https://www.linkedin.com/in/jhonatasols/"><BsLinkedin /></a>
-                                <a href="https://github.com/JhonnyO3"><BsGithub /></a>
-                                <a href="https://www.instagram.com/"><BsInstagram /></a>
-                                <a href="https://www.facebook.com/jhonatas.oliveira.58152/"><BsFacebook /></a>
-                            </ul>
-
-                        </div>
-                        <h1 id="arrow-down"><IoIosArrowDropdownCircle id="icon" /></h1>
-                    </div>
-                    <div id="image">
-                        <img src={desktop} alt="" />
-                    </div>
+        <div id="container">
+            <div id="principal">
+                <h1>Olá, sou o Jhonatas <span id="gradient">Desenvolvedor</span> Full-Stack</h1>
+                <div id="sub-titulo">
+                <p>Construindo aplicações utilizando as principais stacks do mercado de TI</p>
                 </div>
-                <div id="about-work">
-                    <div id="about">
-                        <h3>Sobre mim</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus harum explicabo ea nemo, atque praesentium aperiam optio ex aspernatur, officia nisi eaque doloribus in deserunt nesciunt nihil, assumenda quam qui.</p>
-                        <a href="">Conheça mais sobre mim  </a>
-                    </div>
-                    <div id="work">
-                        <h3>Meu trabalho</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, est nam praesentium distinctio itaque inventore ratione veniam quos aliquid quidem reprehenderit dignissimos, possimus ipsum? Officia tenetur dicta culpa nam et.</p>
-                        <div id="cards">
-                            <div id="works">
-                                <img src={ti} alt="" />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
-                                <a href="">Link</a>
-                            </div>
-                            <div id="works">
-                                <img src={ti} alt="" />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
-                                <a href="">Link</a>
-
-                            </div>
-                            <div id="works">
-                                <img src={ti} alt="" />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius, repellat rerum repudiandae doloremque inventore laboriosam, et alias consequuntur dolorum quisquam distinctio in, asperiores aliquam maiores voluptates deserunt suscipit saepe.</p>
-                                <a href="">Link</a>
-
-                            </div>
-
-
-                        </div>
-                        <a href="">Ver mais projetos</a>
-                    </div>
-
-
+                <div id="botao-cv">
+                    <button>Download CV</button>
                 </div>
-
-            </main>
+                <div id="redes">
+                    <a href="/"><BsGithub/></a>
+                    <a href="/"><BsLinkedin/></a>
+                    <a href="/"><BsInstagram/></a>
+                </div>
+            </div>
+            <div id="img-principal">
+                <img src={ilustracao} alt="" />
+            </div>
+        </div>
         </DivHome>
+
 
     )
 }
